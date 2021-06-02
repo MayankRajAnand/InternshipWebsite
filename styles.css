@@ -1,0 +1,258 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+  
+}
+.hide{
+    display:none;
+}
+
+.btn:hover{
+    opacity:0.4;
+
+}
+body{
+    overflow-x: hidden;
+}
+
+.mod{
+    background-color: white;
+}
+.input-icons{
+    width:360px;
+    height:30px;
+    background-color: #F2F2F2;
+    border-radius:20px;
+
+}
+.input-icons i{
+    margin-left:20px;
+    color:#5c5c5c;
+}
+.ip{
+    width:250px;
+    margin-top:2px;
+    margin-left:30px;
+    background-color: #F2F2F2;
+    border:none;
+}
+.ip::placeholder{
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+
+}
+.ip:focus ,.ip::selection ,ip:hover{
+    outline:none;
+}
+
+
+
+.img-container{
+	height:80vh;
+	width:100vw;
+}
+
+.overlay {
+	width: 100vw;
+	height: 80vh;
+	position: absolute;
+	z-index: 3;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+.titleMessage {
+	position: absolute;
+    top: 65%;
+	left:18%;
+    z-index: 5;
+   
+}
+
+.titleMessage .heading p {
+	color: #fff;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.titleMessage .heading .main {
+
+	font-family: IBM Plex Sans;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 47px;
+	
+
+}
+.Posts{
+    margin-top: 30px;
+}
+
+.titleMessage .heading .sub {
+	font-family: IBM Plex Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 23px;
+	text-align: left;
+
+}
+.card{
+	width:60%;
+	height:auto;
+	margin:20px;
+	border: 1px solid #E0E0E0;
+	border-radius: 4px;
+    box-shadow:0px 2px 5px rgba(0, 0, 0, 0.4);
+} 
+.card-body{
+	position:relative;
+}
+.dots{
+	position:absolute;
+	bottom:40px;
+	right:30px;
+    background-color: white;
+    
+}
+.dotsss{
+	position:absolute;
+	bottom:0px;
+	right:30px;
+    background-color: white;
+    
+}
+.dotss{
+	position:absolute;
+	bottom:10px;
+	right:30px;
+    background-color: white;
+    
+}
+.card-title{
+	font-family: IBM Plex Sans;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+.card-text{
+	font-family: IBM Plex Sans;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 25px;
+	text-align: left;
+}
+.card-items{
+	justify-content: space-between;
+}
+.cardImg{
+	padding:10px ;
+	padding-bottom: 5px;
+}
+.div2{
+	margin-right:30px;
+	margin-top: 10px;
+	
+}
+.one{
+	margin:0 5px;
+	color:#525252;
+	
+}
+.two{
+	margin:0 5px;
+	margin-right: 40px;
+	color:#525252;
+}
+.three{
+	
+	padding:0 10px;
+	background-color:#EDEEF0;
+	border:none;
+}
+
+.underline{
+	border-bottom:2px solid #E0E0E0;
+	
+}
+.loc{
+    top:10%;
+    width:20%;
+    position: absolute;
+    right:5%;
+}
+.edit{
+    position: absolute;
+    right:0;
+    top:2px;
+}
+.edit:hover{
+    opacity: 0.4;
+}
+.para{
+	font-family: IBM Plex Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color:#525252;
+}
+.locn{
+    font-family: IBM Plex Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+dropdown-item{
+    color: red;
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:1007px)
+{
+    .topform{
+        display: flex;
+        justify-content:center;
+    }
+    .Posts{
+        height:auto;
+    }
+    .titleMessage {
+        top:75%;
+       
+    }
+    .mobFil .res{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card{
+        width:90%;
+    }
+    .loc{
+        display:none;
+    }
+
+
+
+    
+    
+}
